@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <integer name="browse_column_count">2</integer>
+</resources>
