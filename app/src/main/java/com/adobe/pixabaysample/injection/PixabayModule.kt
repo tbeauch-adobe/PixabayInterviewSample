@@ -21,7 +21,6 @@ import javax.inject.Singleton
 )
 class PixabayModule {
 
-    @Singleton
     @Provides
     fun provideSharedPreferences(@ApplicationContext context: Context): SharedPreferences {
         return context.getSharedPreferences("MainPrefs", Context.MODE_PRIVATE)
